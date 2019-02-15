@@ -11,7 +11,7 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "test": "jest --config=jest.config.json",
-    "heroku-postbuild":"yarn run biold:prod"
+    "heroku-postbuild":"yarn run build:prod"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",

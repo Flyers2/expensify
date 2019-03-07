@@ -22,7 +22,6 @@ wrapper = shallow(
         mappedSortByAmount={sortByAmount}
         mappedSetEndDate={setEndDate}
         mappedSetStartDate={setStartDate}
-
     />
 )
 });

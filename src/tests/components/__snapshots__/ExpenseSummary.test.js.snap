@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should show ExpenseSummary Component 1`] = `
+<ExpenseSummary
+  expenses={
+    Array [
+      Object {
+        "amount": 195,
+        "createdAt": 0,
+        "description": "Gum",
+        "id": 1,
+        "note": "",
+      },
+      Object {
+        "amount": 109500,
+        "createdAt": -345600000,
+        "description": "rent",
+        "id": 2,
+        "note": "",
+      },
+      Object {
+        "amount": 4500,
+        "createdAt": 345600000,
+        "description": "credit card",
+        "id": 4,
+        "note": "",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`should show ExpenseSummary Component with expenses 1`] = `
+<ExpenseSummary
+  expenses={
+    Array [
+      Object {
+        "amount": 195,
+        "createdAt": 0,
+        "description": "Gum",
+        "id": 1,
+        "note": "",
+      },
+      Object {
+        "amount": 109500,
+        "createdAt": -345600000,
+        "description": "rent",
+        "id": 2,
+        "note": "",
+      },
+      Object {
+        "amount": 4500,
+        "createdAt": 345600000,
+        "description": "credit card",
+        "id": 4,
+        "note": "",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`should show ExpenseSummary Component without expenses 1`] = `<ExpenseSummary />`;
